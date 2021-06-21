@@ -6,21 +6,21 @@ The existing HP-50G emulator skins are starting to look dated, so I made a new o
 
 ### Setting up 
 
-1 - Open `Calculator/Emu48.exe`
-2 - Select `Flat HP-50G (Wide)`
-2 - `File > Open > Calculator/myconfig.e49`
-3 - Drag `Programs/HOME1.hp` and drop in the app
+1. Open `Calculator/Emu48.exe`
+2. Select `Flat HP-50G (Wide)`
+3. `File > Open > Calculator/myconfig.e49`
+4. Drag `Programs/HOME1.hp` and drop in the app
 
 In the app (RPN mode):
 
-4 - `VAR (J) > Backup (F) > PurgeH1 (B)`
-5 - `StoH1 (A)`
-6 - `RestoreHOME1 (D)`
-7 - `VAR (J) > Flags (E) > RSTF (A)`
+5. `VAR (J) > Backup (F) > PurgeH1 (B)`
+6. `StoH1 (A)`
+7. `RestoreHOME1 (D)`
+8. `VAR (J) > Flags (E) > RSTF (A)`
 
 ### Exporting "HOME1"
 
-1 - `HOME > VAR (J) > RCLHOME1 (F)`
+In app: `HOME > VAR (J) > RCLHOME1 (F)`
 
 ### Video Demo
 
