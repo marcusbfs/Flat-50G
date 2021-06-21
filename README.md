@@ -2,9 +2,25 @@
 
 The existing HP-50G emulator skins are starting to look dated, so I made a new one. I made a modern flat interface, improved the keyboard shortcuts, increased the screen size, changed the screen's usual ugly green colour, and now it's my favourite mathematical tool. And it's free. And it's faster than WolframAlpha. 
 
-### How to Use
+## How to Use
 
-Open the `Calculator` folder and run `Emu48.exe`. When prompted for a KML script, select  `Flat HP-50G (Wide)` or `Flat HP-50G (Tall)`. After the emulator opens, you may choose to load my prefered settings by going to `File > Open > settings.E49`. Then just hold down `CAPS` and type to enter commands like a command-line application.
+### Setting up 
+
+1 - Open `Calculator/Emu48.exe`
+2 - Select `Flat HP-50G (Wide)`
+2 - `File > Open > Calculator/myconfig.e49`
+3 - Drag `Programs/HOME1.hp` and drop in the app
+
+In the app (RPN mode):
+
+4 - `VAR (J) > Backup (F) > PurgeH1 (B)`
+5 - `StoH1 (A)`
+6 - `RestoreHOME1 (D)`
+7 - `VAR (J) > Flags (E) > RSTF (A)`
+
+### Exporting "HOME1"
+
+1 - `HOME > VAR (J) > RCLHOME1 (F)`
 
 ### Video Demo
 
